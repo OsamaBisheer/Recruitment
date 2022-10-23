@@ -1,0 +1,142 @@
+<div class="create-account form-page">
+  <div class="container">
+    <app-spinner></app-spinner>
+
+    <app-page-header-light link="/sign-in"></app-page-header-light>
+
+    <div>
+      <img
+        src="/assets/img/logo.png"
+        alt="Recruitment Logo"
+        width="120"
+        height="120"
+        class="logo"
+      />
+      <h2>Register</h2>
+    </div>
+    <form (ngSubmit)="signUp()" [formGroup]="signupForm" novalidate>
+      <div class="form-content">
+        <div class="form-group">
+          <input
+            type="text"
+            formControlName="name"
+            placeholder="Enter name* ..."
+            id="name"
+            class="form-control"
+            [class.form-control-error]="
+              signupForm.controls.name.invalid &&
+              signupForm.controls.name.dirty &&
+              isSubmitted
+            "
+          />
+          <span
+            class="form-feedback"
+            *ngIf="
+              signupForm.controls.name.invalid &&
+              signupForm.controls.name.dirty &&
+              isSubmitted
+            "
+            >Please enter a name</span
+          >
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            formControlName="mobile"
+            placeholder="Enter mobile* ..."
+            id="mobile"
+            class="form-control"
+            [class.form-control-error]="
+              signupForm.controls.mobile.invalid &&
+              signupForm.controls.mobile.dirty &&
+              isSubmitted
+            "
+          />
+          <span
+            class="form-feedback"
+            *ngIf="
+              signupForm.controls.mobile.invalid &&
+              signupForm.controls.mobile.dirty &&
+              isSubmitted
+            "
+            >Please enter a mobile</span
+          >
+        </div>
+        <div class="form-group">
+          <input
+            type="email"
+            formControlName="email"
+            placeholder="Enter email* ..."
+            id="email"
+            class="form-control"
+            [class.form-control-error]="
+              signupForm.controls.email.invalid &&
+              signupForm.controls.email.dirty &&
+              isSubmitted
+            "
+          />
+          <span
+            class="form-feedback"
+            *ngIf="
+              signupForm.controls.email.invalid &&
+              signupForm.controls.email.dirty &&
+              isSubmitted
+            "
+            >Please enter a valid email</span
+          >
+        </div>
+        <div class="form-group form-group-pass">
+          <input
+            [type]="showPassword ? 'text' : 'password'"
+            formControlName="password"
+            placeholder="Enter password* ..."
+            id="password"
+            class="form-control"
+            [class.form-control-error]="
+              signupForm.controls.password.invalid &&
+              signupForm.controls.password.dirty &&
+              isSubmitted
+            "
+          />
+          <a class="show" (click)="showPassword = !showPassword">
+            <img
+              src="/assets/img/authentication/{{
+                showPassword ? 'show' : 'hide'
+              }}-pass.svg"
+            />
+          </a>
+
+          <span
+            class="form-feedback"
+            *ngIf="
+              signupForm.controls.password.invalid &&
+              signupForm.controls.password.dirty &&
+              isSubmitted
+            "
+          >
+            Please enter a valid password
+          </span>
+        </div>
+        <div class="form-group form-group-pass">
+          <input
+            [type]="showPassword ? 'text' : 'password'"
+            formControlName="confirmPassword"
+            placeholder="Enter password* ..."
+            id="confirmPassword"
+            class="form-control"
+          />
+          <a class="show" (click)="showPassword = !showPassword">
+            <img
+              src="/assets/img/authentication/{{
+                showPassword ? 'show' : 'hide'
+              }}-pass.svg"
+            />
+          </a>
+        </div>
+      </div>
+      <div class="form-action">
+        <button class="btn btn-primary btn-block">Register</button>
+      </div>
+    </form>
+  </div>
+</div>

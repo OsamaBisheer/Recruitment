@@ -1,0 +1,206 @@
+<app-spinner></app-spinner>
+
+<div class="card">
+  <div class="card-header">
+    <strong>{{ jobTitle.id ? "Update" : "Add" }} Job Title</strong>
+  </div>
+  <div class="card-body">
+    <form>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="form-group">
+            <label for="jobName" class="input_label">Name *</label>
+            <input
+              placeholder="Enter name ..."
+              type="text"
+              #jobName="ngModel"
+              name="jobName"
+              [(ngModel)]="jobTitle.name"
+              id="jobName"
+              required
+              class="form-control"
+              [class.is-invalid]="submitted && jobName?.errors?.required"
+            />
+            <span
+              class="invalid-feedback"
+              *ngIf="submitted && jobName?.errors?.required"
+              >Name is required</span
+            >
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="form-group">
+            <label for="jobCategory">Category *</label>
+            <select
+              required
+              class="form-control"
+              [(ngModel)]="jobTitle.jobCategory"
+              name="jobCategory"
+              #jobCategory="ngModel"
+            >
+              <option *ngFor="let item of jobCategories" [ngValue]="item.value">
+                {{ item.label }}
+              </option>
+            </select>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="form-group">
+            <label for="maximumApplications">Max Applications *</label>
+            <input
+              placeholder="Enter max applications..."
+              type="number"
+              #maximumApplications="ngModel"
+              name="maximumApplications"
+              [(ngModel)]="jobTitle.maximumApplications"
+              id="maximumApplications"
+              min="1"
+              class="form-control"
+              [class.is-invalid]="
+                submitted &&
+                (!(maximumApplications?.value > 0) ||
+                  (maximumApplications?.value &&
+                    !isInt(maximumApplications?.value)))
+              "
+            />
+            <span
+              *ngIf="
+                submitted &&
+                (!(maximumApplications?.value > 0) ||
+                  (maximumApplications?.value &&
+                    !isInt(maximumApplications?.value)))
+              "
+              class="invalid-feedback"
+            >
+              <span *ngIf="!(maximumApplications?.value > 0)"
+                >Max applications should be not less than 0
+              </span>
+
+              <br *ngIf="!(maximumApplications?.value > 0)" />
+
+              <span
+                *ngIf="
+                  maximumApplications?.value &&
+                  !isInt(maximumApplications?.value)
+                "
+                >Max applications should be an integer number
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 form-group">
+          <label for="start">Start Date *</label>
+          <input
+            placeholder="Enter start date..."
+            type="date"
+            #start="ngModel"
+            name="start"
+            [(ngModel)]="fromForDisplay"
+            required
+            id="start"
+            class="form-control"
+            [class.is-invalid]="submitted && start?.errors"
+          />
+          <span class="invalid-feedback" *ngIf="submitted && start?.errors">
+            Start date is required
+          </span>
+        </div>
+        <div class="col-md-3 form-group">
+          <label for="end">End Date *</label>
+          <input
+            placeholder="Enter end date..."
+            type="date"
+            #end="ngModel"
+            name="end"
+            [(ngModel)]="toForDisplay"
+            required
+            id="end"
+            class="form-control"
+            [class.is-invalid]="submitted && end?.errors"
+          />
+          <span class="invalid-feedback" *ngIf="submitted && end?.errors">
+            End date is required
+          </span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="form-group">
+            <label for="description">Description *</label>
+            <textarea
+              rows="15"
+              placeholder="Enter description..."
+              #description="ngModel"
+              name="description"
+              [(ngModel)]="jobTitle.description"
+              class="form-control"
+              id="description"
+              required
+              [class.is-invalid]="submitted && description?.errors?.required"
+            >
+            </textarea>
+            <span
+              class="invalid-feedback"
+              *ngIf="submitted && description?.errors?.required"
+              >Description is required</span
+            >
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="form-group">
+            <label for="responsibilities">Responsibilities *</label>
+            <textarea
+              rows="15"
+              placeholder="Enter responsibilities..."
+              #responsibilities="ngModel"
+              name="responsibilities"
+              [(ngModel)]="jobTitle.responsibilities"
+              class="form-control"
+              id="responsibilities"
+              required
+              [class.is-invalid]="
+                submitted && responsibilities?.errors?.required
+              "
+            >
+            </textarea>
+            <span
+              class="invalid-feedback"
+              *ngIf="submitted && responsibilities?.errors?.required"
+              >Responsibilities is required</span
+            >
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="form-group">
+            <label for="skills">Skills *</label>
+            <textarea
+              rows="15"
+              placeholder="Enter skills..."
+              #skills="ngModel"
+              name="skills"
+              [(ngModel)]="jobTitle.skills"
+              class="form-control"
+              id="skills"
+              required
+              [class.is-invalid]="submitted && skills?.errors?.required"
+            >
+            </textarea>
+            <span
+              class="invalid-feedback"
+              *ngIf="submitted && skills?.errors?.required"
+              >Skills is required</span
+            >
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+  <div class="card-footer">
+    <button class="btn btn-primary" (click)="save()">
+      {{ jobTitle.id ? "Update" : "Add" }}
+    </button>
+    <button class="btn btn-danger" (click)="back()">Cancel</button>
+  </div>
+</div>

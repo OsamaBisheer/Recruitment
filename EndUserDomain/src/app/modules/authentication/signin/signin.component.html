@@ -1,0 +1,87 @@
+<div class="signin form-page">
+  <app-spinner></app-spinner>
+
+  <app-page-header-light></app-page-header-light>
+
+  <div>
+    <img
+      src="/assets/img/logo.png"
+      alt="Recruitment Logo"
+      width="120"
+      height="120"
+      class="logo"
+    />
+    <h2>Sign In</h2>
+  </div>
+
+  <form (ngSubmit)="signIn()" [formGroup]="signinForm" novalidate>
+    <div class="form-content">
+      <div class="form-group">
+        <input
+          type="email"
+          formControlName="email"
+          placeholder="Enter email* ..."
+          id="email"
+          class="form-control"
+          [class.form-control-error]="
+            signinForm.controls.email.invalid &&
+            signinForm.controls.email.dirty &&
+            isSubmitted
+          "
+        />
+        <span
+          class="form-feedback"
+          *ngIf="
+            signinForm.controls.email.invalid &&
+            signinForm.controls.email.dirty &&
+            isSubmitted
+          "
+          >Please enter a valid email</span
+        >
+      </div>
+      <div class="form-group form-group-pass">
+        <input
+          [type]="showPassword ? 'text' : 'password'"
+          formControlName="password"
+          placeholder="Enter password* ..."
+          id="password"
+          class="form-control"
+          [class.form-control-error]="
+            signinForm.controls.password.invalid &&
+            signinForm.controls.password.dirty &&
+            isSubmitted
+          "
+        />
+        <a class="show" (click)="showPassword = !showPassword">
+          <img
+            src="/assets/img/authentication/{{
+              showPassword ? 'show' : 'hide'
+            }}-pass.svg"
+          />
+        </a>
+
+        <span
+          class="form-feedback"
+          *ngIf="
+            signinForm.controls.password.invalid &&
+            signinForm.controls.password.dirty &&
+            isSubmitted
+          "
+        >
+          Please enter a valid password
+        </span>
+      </div>
+    </div>
+
+    <div class="form-action">
+      <button class="btn btn-primary btn-block" type="submit">Sign In</button>
+    </div>
+  </form>
+
+  <div class="form-footer">
+    <p>
+      Don't have an account?
+      <a routerLink="/register">Register</a>
+    </p>
+  </div>
+</div>

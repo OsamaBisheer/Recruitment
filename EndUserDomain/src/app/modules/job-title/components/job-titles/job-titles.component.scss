@@ -1,0 +1,55 @@
+@import "../../../../../assets/variables.scss";
+
+.empty-job-titles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  text-align: center;
+  margin: $spacing * 4 0;
+
+  img {
+    margin: 0 auto;
+  }
+
+  p {
+    margin-top: $spacing * 2;
+  }
+}
+
+.account-head {
+  padding-top: $page-action-fixed-pb;
+  background: $grey-darker;
+  padding: $spacing * 3 $spacing $spacing * 2 $spacing * 2;
+  position: relative;
+  margin-bottom: $spacing;
+
+  h2 {
+    font-weight: $font-semibold;
+    margin: 0;
+    color: $grey-lighter;
+  }
+
+  p {
+    font-size: $font-sm;
+    margin: 0;
+    color: $grey-lighter;
+    margin-top: $spacing/2;
+  }
+
+  .avatar {
+    @include border-radius(100%);
+    min-width: 100px;
+    min-height: 100px;
+    padding: 5px;
+    position: absolute;
+    right: $spacing;
+    bottom: -24px;
+    background: $white;
+
+    img {
+      width: 70px;
+      height: 70px;
+    }
+  }
+}

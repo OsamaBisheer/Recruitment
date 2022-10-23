@@ -1,0 +1,13 @@
+//fa
+@import "./assets/fa/scss/fontawesome.scss";
+@import "./assets/fa/scss/solid.scss";
+
+/* Importing Bootstrap SCSS file. */
+@import "~bootstrap/scss/bootstrap";
+
+/* Importing Toastr SCSS file. */
+@import "~ngx-toastr/toastr.css";
+
+/* Importing Addax custom styles. */
+@import "./assets/variables.scss";
+@import "./assets/shared.scss";

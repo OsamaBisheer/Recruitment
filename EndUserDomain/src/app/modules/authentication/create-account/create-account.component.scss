@@ -1,0 +1,28 @@
+@import "../../../../assets/variables.scss";
+
+.create-account {
+    background: $white;
+    h2 {
+        margin-top: $spacing/2;
+        margin-bottom: 0;
+        text-align: center;
+    }
+    
+    p {
+        color: $black;
+        font-size: $font-sm;
+        text-align: center;
+    }
+
+    .form {
+
+        &-content {
+            margin-top: $spacing;
+        }
+    
+        &-action {
+            margin-top: $spacing*2
+        }
+    }
+
+}

@@ -1,0 +1,367 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Projects\\Link Dev Task\\Recruitment\\API\\Recruitment.API\\Recruitment.API.csproj": {}
+  },
+  "projects": {
+    "D:\\Projects\\Link Dev Task\\Recruitment\\API\\Recruitment.API\\Recruitment.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\Link Dev Task\\Recruitment\\API\\Recruitment.API\\Recruitment.API.csproj",
+        "projectName": "Recruitment.API",
+        "projectPath": "D:\\Projects\\Link Dev Task\\Recruitment\\API\\Recruitment.API\\Recruitment.API.csproj",
+        "packagesPath": "C:\\Users\\Al Gohary\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Link Dev Task\\Recruitment\\API\\Recruitment.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Al Gohary\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Projects\\Link Dev Task\\Recruitment\\API\\Recruitment.Domain\\Recruitment.Domain.csproj": {
+                "projectPath": "D:\\Projects\\Link Dev Task\\Recruitment\\API\\Recruitment.Domain\\Recruitment.Domain.csproj"
+              },
+              "D:\\Projects\\Link Dev Task\\Recruitment\\API\\Recruitment.Persistence\\Recruitment.Persistence.csproj": {
+                "projectPath": "D:\\Projects\\Link Dev Task\\Recruitment\\API\\Recruitment.Persistence\\Recruitment.Persistence.csproj"
+              },
+              "D:\\Projects\\Link Dev Task\\Recruitment\\API\\Recruitment.Repository\\Recruitment.Repository.csproj": {
+                "projectPath": "D:\\Projects\\Link Dev Task\\Recruitment\\API\\Recruitment.Repository\\Recruitment.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "DelegateDecompiler": {
+              "target": "Package",
+              "version": "[0.32.0, )"
+            },
+            "DelegateDecompiler.EntityFrameworkCore5": {
+              "target": "Package",
+              "version": "[0.32.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.15, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.110\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\Link Dev Task\\Recruitment\\API\\Recruitment.Domain\\Recruitment.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\Link Dev Task\\Recruitment\\API\\Recruitment.Domain\\Recruitment.Domain.csproj",
+        "projectName": "Recruitment.Domain",
+        "projectPath": "D:\\Projects\\Link Dev Task\\Recruitment\\API\\Recruitment.Domain\\Recruitment.Domain.csproj",
+        "packagesPath": "C:\\Users\\Al Gohary\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Link Dev Task\\Recruitment\\API\\Recruitment.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Al Gohary\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "DelegateDecompiler": {
+              "target": "Package",
+              "version": "[0.32.0, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.110\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\Link Dev Task\\Recruitment\\API\\Recruitment.Persistence\\Recruitment.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\Link Dev Task\\Recruitment\\API\\Recruitment.Persistence\\Recruitment.Persistence.csproj",
+        "projectName": "Recruitment.Persistence",
+        "projectPath": "D:\\Projects\\Link Dev Task\\Recruitment\\API\\Recruitment.Persistence\\Recruitment.Persistence.csproj",
+        "packagesPath": "C:\\Users\\Al Gohary\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Link Dev Task\\Recruitment\\API\\Recruitment.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Al Gohary\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Projects\\Link Dev Task\\Recruitment\\API\\Recruitment.Domain\\Recruitment.Domain.csproj": {
+                "projectPath": "D:\\Projects\\Link Dev Task\\Recruitment\\API\\Recruitment.Domain\\Recruitment.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.110\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\Link Dev Task\\Recruitment\\API\\Recruitment.Repository\\Recruitment.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\Link Dev Task\\Recruitment\\API\\Recruitment.Repository\\Recruitment.Repository.csproj",
+        "projectName": "Recruitment.Repository",
+        "projectPath": "D:\\Projects\\Link Dev Task\\Recruitment\\API\\Recruitment.Repository\\Recruitment.Repository.csproj",
+        "packagesPath": "C:\\Users\\Al Gohary\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Link Dev Task\\Recruitment\\API\\Recruitment.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Al Gohary\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Projects\\Link Dev Task\\Recruitment\\API\\Recruitment.Persistence\\Recruitment.Persistence.csproj": {
+                "projectPath": "D:\\Projects\\Link Dev Task\\Recruitment\\API\\Recruitment.Persistence\\Recruitment.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "DelegateDecompiler": {
+              "target": "Package",
+              "version": "[0.32.0, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.110\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

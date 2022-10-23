@@ -1,0 +1,23 @@
+<app-spinner></app-spinner>
+
+<div class="account-head">
+  <h2>Job Titles</h2>
+  <p *ngIf="jobTitles.length">{{ jobTitles.length }} Job Titles</p>
+  <div class="avatar">
+    <img src="/assets/img/job-title.svg" width="70" height="70" />
+  </div>
+</div>
+
+<div class="page-wrapper">
+  <div class="empty-job-titles" *ngIf="!jobTitles.length">
+    <img src="/assets/img/job-title.svg" width="100" height="100" />
+    <p>No Job Titles!</p>
+  </div>
+
+  <div class="items-list" *ngIf="jobTitles.length">
+    <app-job-title-item
+      *ngFor="let jobTitle of jobTitles"
+      [jobTitle]="jobTitle"
+    ></app-job-title-item>
+  </div>
+</div>

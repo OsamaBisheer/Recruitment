@@ -1,0 +1,11 @@
+<div class="input-container">
+  <i class="fa fa-search icon"></i>
+  <input
+    (keydown.enter)="keydownEnter()"
+    type="text"
+    class="form-control"
+    placeholder="Search"
+    (input)="changeValue($event)"
+    [(ngModel)]="model"
+  />
+</div>

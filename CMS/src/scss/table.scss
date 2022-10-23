@@ -1,0 +1,247 @@
+.p-datatable .p-datatable-thead > tr > th,
+.p-datatable .p-datatable-tbody > tr > td {
+  font-size: 13px !important;
+  padding: 4px !important;
+  font-family: var(--font-family);
+  text-align: center !important;
+}
+
+.p-datatable .p-datatable-thead > tr > th {
+  border-width: 2px 2px 2px 0 !important;
+}
+
+.p-datatable .p-datatable-tbody > tr > td {
+  border-width: 0 2px 2px 0 !important;
+}
+
+.p-datatable .p-datatable-tbody > tr > td.name-left {
+  text-align: left !important;
+}
+
+.p-datatable {
+  .fa-sort {
+    margin-left: 3px;
+  }
+
+  button:focus {
+    outline: none;
+  }
+
+  .button {
+    padding: 7px !important;
+  }
+
+  .input-container {
+    display: flex;
+    width: 100%;
+
+    .icon {
+      padding: 9px 2px;
+      min-width: 30px;
+      text-align: center;
+      background-color: #dae1ec;
+      border-radius: 0.25rem 0 0 0.25rem !important;
+    }
+
+    .form-control {
+      font-size: var(--inputs-font-size);
+      font-weight: var(--inputs-font-weight);
+      font-family: var(--font-family);
+      background-color: #dae1ec;
+      border: none;
+      border-radius: 0 0.25rem 0.25rem 0 !important;
+      padding-left: 5px;
+    }
+
+    .form-control:focus {
+      box-shadow: none !important;
+    }
+  }
+}
+
+.actions-links {
+  a {
+    cursor: pointer;
+    background-color: white !important;
+    color: #495057 !important;
+    box-shadow: none !important;
+    padding: 5px !important;
+  }
+}
+
+.p-datatable .p-datatable-tbody > tr:nth-child(even),
+.p-datatable .p-datatable-header,
+.p-datatable .p-datatable-thead > tr > th {
+  background-color: var(--datatable-color) !important;
+  a {
+    background-color: var(--datatable-color) !important;
+  }
+}
+
+.p-datatable-header {
+  border: none !important;
+}
+
+.p-datatable .p-datatable-tbody > tr.p-highlight {
+  background-color: #d3d3d3 !important;
+  color: black !important;
+}
+
+body .p-paginator .p-paginator-pages .p-paginator-page {
+  height: 2.286em !important;
+  min-width: 2.086em !important;
+  border: 0 !important;
+  line-height: 2.286em !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  vertical-align: top !important;
+  border-radius: 0 !important;
+  font-size: 14px !important;
+}
+
+td {
+  word-break: break-all;
+}
+th {
+  text-align: center !important;
+}
+
+td.ids {
+  text-align: center;
+}
+
+th.ids {
+  width: 50px !important;
+  text-align: center;
+}
+
+th.actions,
+td.actions {
+  width: 70px !important;
+}
+
+th.thSmall5,
+td.thSmall5 {
+  width: 40px !important;
+}
+
+th.thSmall4,
+td.thSmall4 {
+  width: 50px !important;
+}
+
+th.thSmall3,
+td.thSmall3 {
+  width: 60px !important;
+}
+
+th.thSmall2,
+td.thSmall2 {
+  width: 70px !important;
+}
+
+th.thSmall1,
+td.thSmall1 {
+  width: 80px !important;
+}
+
+th.thSmall0,
+td.thSmall0 {
+  width: 90px !important;
+}
+
+th.thMudiam0,
+td.thMudiam0 {
+  width: 100px !important;
+}
+
+th.thMudiam1,
+td.thMudiam1 {
+  width: 110px !important;
+}
+
+th.thMudiam2,
+td.thMudiam2 {
+  width: 120px !important;
+}
+
+th.thMudiam3,
+td.thMudiam3 {
+  width: 130px !important;
+}
+
+th.thMudiam4,
+td.thMudiam4 {
+  width: 140px !important;
+}
+
+th.thMudiam5,
+td.thMudiam5 {
+  width: 150px !important;
+}
+
+th.thLarge0,
+td.thLarge0 {
+  width: 160px !important;
+}
+
+th.thLarge1,
+td.thLarge1 {
+  width: 170px !important;
+}
+
+th.thLarge2,
+td.thLarge2 {
+  width: 180px !important;
+}
+
+th.thLarge3,
+td.thLarge3 {
+  width: 190px !important;
+}
+
+th.thLarge4,
+td.thLarge4 {
+  width: 200px !important;
+}
+
+.disable-td {
+  cursor: not-allowed;
+  background-color: #eee !important;
+}
+
+.p-paginator {
+  justify-content: flex-end !important;
+}
+
+.p-dropdown {
+  border: none !important;
+}
+
+.p-paginator-pages {
+  display: none !important;
+}
+
+.p-datatable-header {
+  .refresh {
+    cursor: pointer;
+  }
+
+  @media (max-width: 768px) {
+    .text-right {
+      text-align: left !important;
+    }
+
+    select,
+    button,
+    .input-container {
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.p-component {
+  font-family: "Open Sans", "Helvetica Neue", sans-serif !important;
+  font-size: 14px !important;
+  text-decoration: none !important;
+}

@@ -1,0 +1,97 @@
+// -----------------------------------------------------------------------------
+// This file contains all application Sass variables.
+// -----------------------------------------------------------------------------
+/* Colors */
+$primary: #000;
+$white: #fff;
+$black: #000;
+
+/* $secondary: #73BB9C;
+$secondary-light: #E8FAEA;
+$secondary-dark: #398674; */
+
+$secondary: #4cb1ff;
+$secondary-light: #cff0ff;
+$secondary-dark: #2b67b8;
+
+$success: #a7d25e;
+$success-light: #f3fbd6;
+$success-dark: #639a22;
+
+$info: #4cb1ff;
+$info-light: #cff0ff;
+$info-dark: #2b67b8;
+
+$warning: #f6ce41;
+$warning-light: #fff9d5;
+$warning-dark: #d0a109;
+
+$error: #cf3341;
+$error-light: #fde8e3;
+$error-dark: #970029;
+
+$grey: #a6a6a6;
+$grey-light: #d2d2d2;
+$grey-lighter: #fafafa;
+$grey-dark: #4f4f4f;
+$grey-darker: #1f1f1f;
+
+$mat-table-border-color: #dee2e6;
+$mat-table-border: 2px solid $mat-table-border-color;
+
+/* fonts */
+$font-light: 300;
+$font-reg: 400;
+$font-med: 500;
+$font-semibold: 600;
+$font-bold: 700;
+$font-extra-bold: 900;
+
+$font-xxl: 24px;
+$font-xl: 20px;
+$font-lg: 16px;
+$font-md: 14px;
+$font-sm: 12px;
+$font-xs: 11px;
+
+$body-font: "Poppins", "Helvetica Neue", sans-serif;
+$body-font-ar: "Almarai", "Helvetica Neue", sans-serif;
+$body-color: $grey-dark;
+$body-size: $font-md;
+
+/* Responsive */
+$break-xl: 1200px;
+$break-lg: 991px;
+$break-md: 767px;
+$break-sm: 576px;
+
+$spacing: 16px;
+$top-spacing: 12px;
+
+/* Padding */
+$page-action-fixed-pb: 66px;
+$pb-when-action-fixed: 144px;
+$top-bar-height: 70px;
+
+/* Height */
+$btn-height-xsm: 40px;
+
+/* Mixin */
+@mixin box-shadow($top, $left, $blur, $color, $inset: false) {
+  @if $inset {
+    -moz-box-shadow: inset $top $left $blur $color;
+    -webkit-box-shadow: inset $top $left $blur $color;
+    box-shadow: inset $top $left $blur $color;
+  } @else {
+    -moz-box-shadow: $top $left $blur $color;
+    -webkit-box-shadow: $top $left $blur $color;
+    box-shadow: $top $left $blur $color;
+  }
+}
+
+@mixin border-radius($radius) {
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  -webkit-border-radius: $radius;
+  border-radius: $radius;
+}

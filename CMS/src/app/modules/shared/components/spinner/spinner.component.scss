@@ -1,0 +1,23 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99998 !important;
+  cursor: progress;
+  transition: 5s ease-out;
+  background-color: rgba(40, 40, 40, 0.5);
+  opacity: 5;
+
+  .foreground-spinner {
+    position: fixed;
+    margin: 0;
+  }
+
+  .center-center {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

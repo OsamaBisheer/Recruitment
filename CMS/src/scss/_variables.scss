@@ -1,0 +1,23 @@
+//fa
+$fa-font-path: "/assets/fa/webfonts";
+
+// Variable overrides
+
+:root {
+  --font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, helvetica neue, Arial, sans-serif,
+    apple color emoji, segoe ui emoji, segoe ui symbol !important;
+  --button-font-size: 13px;
+  --inputs-font-size: 12px;
+  --labels-font-size: 12px;
+  --headers-font-size: 14px;
+  --headers-font-weight: 500;
+  --inputs-font-weight: 700;
+  --datatable-color: #f4f7fc;
+  --tab-header-bg: #f0f3f5;
+  --form-control-height: 36px;
+  --light-gray: #9e9e9e;
+  --pending-color: #523ff8;
+  --canceled-color: #f51445;
+  --collected-color: rgb(3, 144, 3);
+  --body-color: #e4e5e6;
+}

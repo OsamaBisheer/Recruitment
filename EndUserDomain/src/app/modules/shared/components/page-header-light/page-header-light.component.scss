@@ -1,0 +1,10 @@
+@import "../../../../../assets/variables.scss";
+
+.page-header {
+  padding: $spacing 0;
+  font-size: $font-xl;
+  text-align: left;
+  i {
+    color: $black;
+  }
+}

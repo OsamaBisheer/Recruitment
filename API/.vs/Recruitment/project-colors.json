@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "7ca01d27-bc63-413c-aaf9-6f772ff5a807": {
+      "ProjectGuid": "7ca01d27-bc63-413c-aaf9-6f772ff5a807",
+      "DisplayName": "Recruitment.API",
+      "ColorIndex": 0
+    },
+    "f00865fe-dd0c-4895-8521-2d314d1d5a9c": {
+      "ProjectGuid": "f00865fe-dd0c-4895-8521-2d314d1d5a9c",
+      "DisplayName": "Recruitment.Persistence",
+      "ColorIndex": 1
+    },
+    "5b23005c-acad-4da9-9344-d5d6ef82eb28": {
+      "ProjectGuid": "5b23005c-acad-4da9-9344-d5d6ef82eb28",
+      "DisplayName": "Recruitment.Domain",
+      "ColorIndex": 2
+    },
+    "4418e188-4179-45e6-90e7-0eccdc43cc5e": {
+      "ProjectGuid": "4418e188-4179-45e6-90e7-0eccdc43cc5e",
+      "DisplayName": "Recruitment.Repository",
+      "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 4
+}

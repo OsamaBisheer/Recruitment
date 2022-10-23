@@ -1,0 +1,104 @@
+<app-spinner></app-spinner>
+
+<div class="card">
+  <p-table
+    #dt
+    responsiveLayout="scroll"
+    [resizableColumns]="true"
+    [paginator]="true"
+    [value]="list"
+    [currentPageReportTemplate]="'{currentPage} of {totalPages}'"
+    [showCurrentPageReport]="true"
+    dataKey="id"
+    [rows]="dataTable.limit"
+    [sortOrder]="-1"
+    [lazy]="true"
+    [lazyLoadOnInit]="false"
+    (onLazyLoad)="nextPage($event)"
+    [totalRecords]="totalRecords"
+    [rowsPerPageOptions]="[3, 10, 25]"
+    [(first)]="first"
+  >
+    <ng-template pTemplate="caption">
+      <div class="row">
+        <div class="col-md-2">
+          <app-search-box
+            (onEnter)="searchAction()"
+            [(model)]="search"
+          ></app-search-box>
+        </div>
+        <div class="col-md-10 text-right">
+          <button class="btn btn-primary" (click)="addJobTitle()">
+            <span class="fa fa-plus"></span> New Job Title
+          </button>
+        </div>
+      </div>
+    </ng-template>
+
+    <ng-template pTemplate="header" let-columns>
+      <tr>
+        <th [pSortableColumn]="'id'" class="thSmall1">
+          Id <icon-sort></icon-sort>
+        </th>
+        <th [pSortableColumn]="'name'">Name <icon-sort></icon-sort></th>
+        <th>Description</th>
+        <th [pSortableColumn]="'jobCategory'">
+          Category <icon-sort></icon-sort>
+        </th>
+        <th [pSortableColumn]="'from'">From <icon-sort></icon-sort></th>
+        <th [pSortableColumn]="'to'">To <icon-sort></icon-sort></th>
+        <th [pSortableColumn]="'maximumApplications'">
+          Max Applications <icon-sort></icon-sort>
+        </th>
+        <th class="actions">
+          <span class="fas fa-ellipsis-h"></span>
+        </th>
+      </tr>
+    </ng-template>
+
+    <ng-template
+      pTemplate="body"
+      let-rowData
+      let-rowIndex="rowIndex"
+      let-editing="editing"
+    >
+      <tr [pSelectableRow]="rowData">
+        <td>
+          {{ rowData.id }}
+        </td>
+        <td>
+          {{ rowData.name }}
+        </td>
+        <td>
+          {{ rowData.description }}
+        </td>
+        <td>
+          {{ getJobCategory(rowData.jobCategory) }}
+        </td>
+        <td>
+          {{ rowData.from | date: "dd/MM/yyyy" }}
+          {{ rowData.from | date: "shortTime" }}
+        </td>
+        <td>
+          {{ rowData.to | date: "dd/MM/yyyy" }}
+          {{ rowData.to | date: "shortTime" }}
+        </td>
+        <td>
+          {{ rowData.maximumApplications }}
+        </td>
+        <td class="actions-links">
+          <a class="btn" tooltip="Edit Job Title" (click)="onEdit(rowData.id)">
+            <icon-edit></icon-edit>
+          </a>
+          <a
+            class="btn"
+            tooltip="Delete Job Title"
+            (click)="onDelete(rowData.id)"
+          >
+            <span class="fa fa-trash"></span>
+          </a>
+        </td>
+      </tr>
+    </ng-template>
+  </p-table>
+</div>

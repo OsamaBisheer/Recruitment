@@ -1,0 +1,12 @@
+<svg id="Component_613_2" data-name="Component 613 – 2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Group_69055" data-name="Group 69055" transform="translate(-660 -484)">
+    <g id="Group_69045" data-name="Group 69045" transform="translate(722 202) rotate(90)">
+      <rect id="Rectangle_8228" data-name="Rectangle 8228" width="24" height="24" transform="translate(282 38)" fill="none"/>
+    </g>
+    <g id="Group_69054" data-name="Group 69054" transform="translate(660 489)">
+      <g id="eye" transform="translate(0 0)">
+        <path id="Path_19210" data-name="Path 19210" d="M12,98.725c-4.585,0-8.744,2.509-11.812,6.584a.95.95,0,0,0,0,1.134c3.068,4.08,7.227,6.589,11.812,6.589s8.744-2.509,11.812-6.584a.95.95,0,0,0,0-1.134C20.744,101.234,16.585,98.725,12,98.725Zm.329,12.19a5.048,5.048,0,1,1,4.708-4.708A5.051,5.051,0,0,1,12.329,110.915Zm-.152-2.327a2.718,2.718,0,1,1,2.538-2.538A2.714,2.714,0,0,1,12.177,108.588Z" transform="translate(0 -98.725)" fill="#5d5d5d"/>
+      </g>
+    </g>
+  </g>
+</svg>

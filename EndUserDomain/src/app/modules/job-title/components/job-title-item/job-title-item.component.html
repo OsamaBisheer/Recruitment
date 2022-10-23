@@ -1,0 +1,86 @@
+<div class="item-row">
+  <div class="info">
+    <div class="data">
+      <data>
+        <a class="title">{{ jobTitle.name }} </a>
+        <label class="code">(ID: {{ jobTitle.id }})</label>
+      </data>
+      <small class="type">{{ getCategoryText(jobTitle.jobCategory) }} </small>
+    </div>
+    <div class="data">
+      <data>
+        <button
+          class="btn btn-info btn-sm mb-2"
+          (click)="showDescription()"
+          style="width: 200px"
+        >
+          Show Description
+        </button>
+      </data>
+      <data>
+        <button
+          class="btn btn-info btn-sm mb-2"
+          (click)="showResponsibilities()"
+          style="width: 200px"
+        >
+          Show Responsibilities
+        </button>
+      </data>
+      <data>
+        <button
+          class="btn btn-info btn-sm mb-3"
+          (click)="showSkills()"
+          style="width: 200px"
+        >
+          Show Skills
+        </button>
+      </data>
+    </div>
+  </div>
+  <div class="date">
+    <div>
+      <img src="/assets/img/calendar-icon.svg" />
+      <span>{{ jobTitle.from | date: "dd/MM/yyyy" }}</span>
+      <i>-</i>
+      <span>{{ jobTitle.to | date: "dd/MM/yyyy" }}</span>
+    </div>
+
+    <button class="btn btn-secondary btn-sm share" (click)="submit()">
+      Submit
+    </button>
+  </div>
+</div>
+
+<div
+  bsModal
+  #popup="bs-modal"
+  class="modal fade"
+  tabindex="-1"
+  role="dialog"
+  aria-labelledby="deletionPopup"
+  aria-hidden="true"
+>
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">
+          <span>{{ popupTitle }}</span>
+        </h4>
+        <button
+          type="button"
+          class="close"
+          (click)="closePopup()"
+          aria-label="Close"
+        >
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="col col-md-12">
+          <textarea rows="15" [value]="popupBody" class="form-control" disabled>
+          </textarea>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

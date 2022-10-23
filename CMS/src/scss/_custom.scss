@@ -1,0 +1,53 @@
+// Here you can add other styles
+
+.green {
+  background-color: forestgreen !important;
+  color: white;
+}
+
+.primary-blue {
+  background-color: #20a8d8 !important;
+  color: white;
+}
+
+button.blue {
+  background-color: rgb(8, 105, 241) !important;
+  color: white !important;
+}
+
+.btns-group {
+  padding: 12px 20px;
+  background: var(--tab-header-bg);
+}
+
+input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+}
+
+.main .container-fluid {
+  padding: 0 15px !important;
+}
+
+.details .tab-content .tab-pane {
+  padding: 0;
+}
+
+.btn,
+label,
+input,
+select {
+  font-size: 13px !important;
+}
+
+.card-footer {
+  .btn {
+    margin-right: 5px;
+  }
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+@import "table";
