@@ -63,7 +63,7 @@ namespace Recruitment.API.Controllers
         }
 
         [HttpDelete("{id}")]
-        public async Task<IActionResult> Delete(int id)
+        public IActionResult Delete(int id)
         {
             var jobTitle = _unitOfWork.JobTitles.Find(id);
             if (jobTitle == null) return Ok(new FailureResponseModel { Message = "Not found" });

@@ -2685,11 +2685,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\Link Dev Task\\Recruitment\\API\\Recruitment.Repository\\Recruitment.Repository.csproj",
+      "projectUniqueName": "D:\\Temp-Projects\\New folder\\Recruitment\\API\\Recruitment.Repository\\Recruitment.Repository.csproj",
       "projectName": "Recruitment.Repository",
-      "projectPath": "D:\\Projects\\Link Dev Task\\Recruitment\\API\\Recruitment.Repository\\Recruitment.Repository.csproj",
+      "projectPath": "D:\\Temp-Projects\\New folder\\Recruitment\\API\\Recruitment.Repository\\Recruitment.Repository.csproj",
       "packagesPath": "C:\\Users\\Al Gohary\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\Link Dev Task\\Recruitment\\API\\Recruitment.Repository\\obj\\",
+      "outputPath": "D:\\Temp-Projects\\New folder\\Recruitment\\API\\Recruitment.Repository\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -2709,8 +2709,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Projects\\Link Dev Task\\Recruitment\\API\\Recruitment.Persistence\\Recruitment.Persistence.csproj": {
-              "projectPath": "D:\\Projects\\Link Dev Task\\Recruitment\\API\\Recruitment.Persistence\\Recruitment.Persistence.csproj"
+            "D:\\Temp-Projects\\New folder\\Recruitment\\API\\Recruitment.Persistence\\Recruitment.Persistence.csproj": {
+              "projectPath": "D:\\Temp-Projects\\New folder\\Recruitment\\API\\Recruitment.Persistence\\Recruitment.Persistence.csproj"
             }
           }
         }

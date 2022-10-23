@@ -30,3 +30,20 @@ D:\Projects\Link Dev Task\Recruitment\API\Recruitment.Persistence\obj\Debug\net6
 D:\Projects\Link Dev Task\Recruitment\API\Recruitment.Persistence\obj\Debug\net6.0\ref\Recruitment.Persistence.dll
 D:\Projects\Link Dev Task\Recruitment\API\Recruitment.Persistence\obj\Debug\net6.0\Recruitment.Persistence.pdb
 D:\Projects\Link Dev Task\Recruitment\API\Recruitment.Persistence\obj\Debug\net6.0\Recruitment.Persistence.genruntimeconfig.cache
+D:\Temp-Projects\New folder\Recruitment\API\Recruitment.Persistence\bin\Debug\net6.0\Recruitment.Persistence.deps.json
+D:\Temp-Projects\New folder\Recruitment\API\Recruitment.Persistence\bin\Debug\net6.0\Recruitment.Persistence.runtimeconfig.json
+D:\Temp-Projects\New folder\Recruitment\API\Recruitment.Persistence\bin\Debug\net6.0\Recruitment.Persistence.dll
+D:\Temp-Projects\New folder\Recruitment\API\Recruitment.Persistence\bin\Debug\net6.0\ref\Recruitment.Persistence.dll
+D:\Temp-Projects\New folder\Recruitment\API\Recruitment.Persistence\bin\Debug\net6.0\Recruitment.Persistence.pdb
+D:\Temp-Projects\New folder\Recruitment\API\Recruitment.Persistence\bin\Debug\net6.0\Recruitment.Domain.dll
+D:\Temp-Projects\New folder\Recruitment\API\Recruitment.Persistence\bin\Debug\net6.0\Recruitment.Domain.pdb
+D:\Temp-Projects\New folder\Recruitment\API\Recruitment.Persistence\obj\Debug\net6.0\Recruitment.Persistence.csproj.AssemblyReference.cache
+D:\Temp-Projects\New folder\Recruitment\API\Recruitment.Persistence\obj\Debug\net6.0\Recruitment.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\Temp-Projects\New folder\Recruitment\API\Recruitment.Persistence\obj\Debug\net6.0\Recruitment.Persistence.AssemblyInfoInputs.cache
+D:\Temp-Projects\New folder\Recruitment\API\Recruitment.Persistence\obj\Debug\net6.0\Recruitment.Persistence.AssemblyInfo.cs
+D:\Temp-Projects\New folder\Recruitment\API\Recruitment.Persistence\obj\Debug\net6.0\Recruitment.Persistence.csproj.CoreCompileInputs.cache
+D:\Temp-Projects\New folder\Recruitment\API\Recruitment.Persistence\obj\Debug\net6.0\Recruitment.Persistence.csproj.CopyComplete
+D:\Temp-Projects\New folder\Recruitment\API\Recruitment.Persistence\obj\Debug\net6.0\Recruitment.Persistence.dll
+D:\Temp-Projects\New folder\Recruitment\API\Recruitment.Persistence\obj\Debug\net6.0\ref\Recruitment.Persistence.dll
+D:\Temp-Projects\New folder\Recruitment\API\Recruitment.Persistence\obj\Debug\net6.0\Recruitment.Persistence.pdb
+D:\Temp-Projects\New folder\Recruitment\API\Recruitment.Persistence\obj\Debug\net6.0\Recruitment.Persistence.genruntimeconfig.cache

@@ -22,3 +22,15 @@ D:\Projects\Link Dev Task\Recruitment\API\Recruitment.Domain\obj\Debug\net6.0\Re
 D:\Projects\Link Dev Task\Recruitment\API\Recruitment.Domain\obj\Debug\net6.0\Recruitment.Domain.dll
 D:\Projects\Link Dev Task\Recruitment\API\Recruitment.Domain\obj\Debug\net6.0\ref\Recruitment.Domain.dll
 D:\Projects\Link Dev Task\Recruitment\API\Recruitment.Domain\obj\Debug\net6.0\Recruitment.Domain.pdb
+D:\Temp-Projects\New folder\Recruitment\API\Recruitment.Domain\bin\Debug\net6.0\Recruitment.Domain.deps.json
+D:\Temp-Projects\New folder\Recruitment\API\Recruitment.Domain\bin\Debug\net6.0\Recruitment.Domain.dll
+D:\Temp-Projects\New folder\Recruitment\API\Recruitment.Domain\bin\Debug\net6.0\ref\Recruitment.Domain.dll
+D:\Temp-Projects\New folder\Recruitment\API\Recruitment.Domain\bin\Debug\net6.0\Recruitment.Domain.pdb
+D:\Temp-Projects\New folder\Recruitment\API\Recruitment.Domain\obj\Debug\net6.0\Recruitment.Domain.csproj.AssemblyReference.cache
+D:\Temp-Projects\New folder\Recruitment\API\Recruitment.Domain\obj\Debug\net6.0\Recruitment.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Temp-Projects\New folder\Recruitment\API\Recruitment.Domain\obj\Debug\net6.0\Recruitment.Domain.AssemblyInfoInputs.cache
+D:\Temp-Projects\New folder\Recruitment\API\Recruitment.Domain\obj\Debug\net6.0\Recruitment.Domain.AssemblyInfo.cs
+D:\Temp-Projects\New folder\Recruitment\API\Recruitment.Domain\obj\Debug\net6.0\Recruitment.Domain.csproj.CoreCompileInputs.cache
+D:\Temp-Projects\New folder\Recruitment\API\Recruitment.Domain\obj\Debug\net6.0\Recruitment.Domain.dll
+D:\Temp-Projects\New folder\Recruitment\API\Recruitment.Domain\obj\Debug\net6.0\ref\Recruitment.Domain.dll
+D:\Temp-Projects\New folder\Recruitment\API\Recruitment.Domain\obj\Debug\net6.0\Recruitment.Domain.pdb

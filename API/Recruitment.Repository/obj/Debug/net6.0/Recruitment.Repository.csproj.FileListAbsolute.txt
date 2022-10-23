@@ -32,3 +32,20 @@ D:\Projects\Link Dev Task\Recruitment\API\Recruitment.Repository\obj\Debug\net6.
 D:\Projects\Link Dev Task\Recruitment\API\Recruitment.Repository\obj\Debug\net6.0\Recruitment.Repository.dll
 D:\Projects\Link Dev Task\Recruitment\API\Recruitment.Repository\obj\Debug\net6.0\ref\Recruitment.Repository.dll
 D:\Projects\Link Dev Task\Recruitment\API\Recruitment.Repository\obj\Debug\net6.0\Recruitment.Repository.pdb
+D:\Temp-Projects\New folder\Recruitment\API\Recruitment.Repository\bin\Debug\net6.0\Recruitment.Repository.deps.json
+D:\Temp-Projects\New folder\Recruitment\API\Recruitment.Repository\bin\Debug\net6.0\Recruitment.Repository.dll
+D:\Temp-Projects\New folder\Recruitment\API\Recruitment.Repository\bin\Debug\net6.0\ref\Recruitment.Repository.dll
+D:\Temp-Projects\New folder\Recruitment\API\Recruitment.Repository\bin\Debug\net6.0\Recruitment.Repository.pdb
+D:\Temp-Projects\New folder\Recruitment\API\Recruitment.Repository\bin\Debug\net6.0\Recruitment.Domain.dll
+D:\Temp-Projects\New folder\Recruitment\API\Recruitment.Repository\bin\Debug\net6.0\Recruitment.Persistence.dll
+D:\Temp-Projects\New folder\Recruitment\API\Recruitment.Repository\bin\Debug\net6.0\Recruitment.Persistence.pdb
+D:\Temp-Projects\New folder\Recruitment\API\Recruitment.Repository\bin\Debug\net6.0\Recruitment.Domain.pdb
+D:\Temp-Projects\New folder\Recruitment\API\Recruitment.Repository\obj\Debug\net6.0\Recruitment.Repository.csproj.AssemblyReference.cache
+D:\Temp-Projects\New folder\Recruitment\API\Recruitment.Repository\obj\Debug\net6.0\Recruitment.Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\Temp-Projects\New folder\Recruitment\API\Recruitment.Repository\obj\Debug\net6.0\Recruitment.Repository.AssemblyInfoInputs.cache
+D:\Temp-Projects\New folder\Recruitment\API\Recruitment.Repository\obj\Debug\net6.0\Recruitment.Repository.AssemblyInfo.cs
+D:\Temp-Projects\New folder\Recruitment\API\Recruitment.Repository\obj\Debug\net6.0\Recruitment.Repository.csproj.CoreCompileInputs.cache
+D:\Temp-Projects\New folder\Recruitment\API\Recruitment.Repository\obj\Debug\net6.0\Recruitment.Repository.csproj.CopyComplete
+D:\Temp-Projects\New folder\Recruitment\API\Recruitment.Repository\obj\Debug\net6.0\Recruitment.Repository.dll
+D:\Temp-Projects\New folder\Recruitment\API\Recruitment.Repository\obj\Debug\net6.0\ref\Recruitment.Repository.dll
+D:\Temp-Projects\New folder\Recruitment\API\Recruitment.Repository\obj\Debug\net6.0\Recruitment.Repository.pdb

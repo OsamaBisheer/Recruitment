@@ -3208,11 +3208,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\Link Dev Task\\Recruitment\\API\\Recruitment.API\\Recruitment.API.csproj",
+      "projectUniqueName": "D:\\Temp-Projects\\New folder\\Recruitment\\API\\Recruitment.API\\Recruitment.API.csproj",
       "projectName": "Recruitment.API",
-      "projectPath": "D:\\Projects\\Link Dev Task\\Recruitment\\API\\Recruitment.API\\Recruitment.API.csproj",
+      "projectPath": "D:\\Temp-Projects\\New folder\\Recruitment\\API\\Recruitment.API\\Recruitment.API.csproj",
       "packagesPath": "C:\\Users\\Al Gohary\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\Link Dev Task\\Recruitment\\API\\Recruitment.API\\obj\\",
+      "outputPath": "D:\\Temp-Projects\\New folder\\Recruitment\\API\\Recruitment.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3232,14 +3232,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Projects\\Link Dev Task\\Recruitment\\API\\Recruitment.Domain\\Recruitment.Domain.csproj": {
-              "projectPath": "D:\\Projects\\Link Dev Task\\Recruitment\\API\\Recruitment.Domain\\Recruitment.Domain.csproj"
+            "D:\\Temp-Projects\\New folder\\Recruitment\\API\\Recruitment.Domain\\Recruitment.Domain.csproj": {
+              "projectPath": "D:\\Temp-Projects\\New folder\\Recruitment\\API\\Recruitment.Domain\\Recruitment.Domain.csproj"
             },
-            "D:\\Projects\\Link Dev Task\\Recruitment\\API\\Recruitment.Persistence\\Recruitment.Persistence.csproj": {
-              "projectPath": "D:\\Projects\\Link Dev Task\\Recruitment\\API\\Recruitment.Persistence\\Recruitment.Persistence.csproj"
+            "D:\\Temp-Projects\\New folder\\Recruitment\\API\\Recruitment.Persistence\\Recruitment.Persistence.csproj": {
+              "projectPath": "D:\\Temp-Projects\\New folder\\Recruitment\\API\\Recruitment.Persistence\\Recruitment.Persistence.csproj"
             },
-            "D:\\Projects\\Link Dev Task\\Recruitment\\API\\Recruitment.Repository\\Recruitment.Repository.csproj": {
-              "projectPath": "D:\\Projects\\Link Dev Task\\Recruitment\\API\\Recruitment.Repository\\Recruitment.Repository.csproj"
+            "D:\\Temp-Projects\\New folder\\Recruitment\\API\\Recruitment.Repository\\Recruitment.Repository.csproj": {
+              "projectPath": "D:\\Temp-Projects\\New folder\\Recruitment\\API\\Recruitment.Repository\\Recruitment.Repository.csproj"
             }
           }
         }

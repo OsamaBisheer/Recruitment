@@ -2643,11 +2643,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\Link Dev Task\\Recruitment\\API\\Recruitment.Domain\\Recruitment.Domain.csproj",
+      "projectUniqueName": "D:\\Temp-Projects\\New folder\\Recruitment\\API\\Recruitment.Domain\\Recruitment.Domain.csproj",
       "projectName": "Recruitment.Domain",
-      "projectPath": "D:\\Projects\\Link Dev Task\\Recruitment\\API\\Recruitment.Domain\\Recruitment.Domain.csproj",
+      "projectPath": "D:\\Temp-Projects\\New folder\\Recruitment\\API\\Recruitment.Domain\\Recruitment.Domain.csproj",
       "packagesPath": "C:\\Users\\Al Gohary\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\Link Dev Task\\Recruitment\\API\\Recruitment.Domain\\obj\\",
+      "outputPath": "D:\\Temp-Projects\\New folder\\Recruitment\\API\\Recruitment.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
